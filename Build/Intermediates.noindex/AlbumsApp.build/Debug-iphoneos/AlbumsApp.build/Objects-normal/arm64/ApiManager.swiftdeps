@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PGApiManager"
+provides-nominal:
+- "9AlbumsApp12PGApiManagerC"
+provides-member:
+- ["9AlbumsApp12PGApiManagerC", ""]
+provides-dynamic-lookup:
+- "baseURL"
+- "createLogin"
+- "createStorageLocationWith"
+- "deleteStorageLocations"
+- "fetchDBProductsList"
+- "fetchProductsDataForDashBoard"
+- "fetchReceiptsList"
+- "fetchStorageLocationsData"
+- "manualProductsEntry"
+- "networkStatus"
+- "registerDevices"
+- "updateStorageLocationWith"
+- "updateUserDetails"
+- "uploadImageToMultiport"
+- "userLogout"
+depends-top-level:
+- !private "+"
+- "??"
+- !private "AF"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Date"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "MultipartFormData"
+- "NSDictionary"
+- "NSError"
+- !private "NetworkReachabilityManager"
+- "PGApiManager"
+- !private "PGApiRouter"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- "Void"
+- "print"
+depends-member:
+- !private ["9Alamofire2AFO", "request"]
+- !private ["9Alamofire2AFO", "upload"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "fractionCompleted"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "main"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "fractionCompleted"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "uploadProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "fractionCompleted"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "uploadProgress"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- ["9Alamofire11DataRequestC", ""]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire11DataRequestC", "uploadProgress"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSinceReferenceDate"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSinceReferenceDate"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "fractionCompleted"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "main"]
+- !private ["SQ", "responseJSON"]
+- !private ["SQ", "success"]
+- !private ["SQ", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", "uploadProgress"]
+- !private ["SQ", "validate"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "failure"]
+- !private ["SH", "fractionCompleted"]
+- !private ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "main"]
+- !private ["SH", "responseJSON"]
+- !private ["SH", "success"]
+- !private ["SH", "timeIntervalSinceReferenceDate"]
+- !private ["SH", "uploadProgress"]
+- !private ["SH", "validate"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Alamofire17MultipartFormDataC", "append"]
+- !private ["9Alamofire17MultipartFormDataC", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "callAsFunction"]
+- !private ["So8NSObjectC", "dictionary"]
+- !private ["So8NSObjectC", "dictionaryWithContentsOfFile"]
+- !private ["So8NSObjectC", "dictionaryWithContentsOfURL"]
+- !private ["So8NSObjectC", "dictionaryWithDictionary"]
+- !private ["So8NSObjectC", "dictionaryWithObject"]
+- !private ["So8NSObjectC", "dictionaryWithObjects"]
+- !private ["So8NSObjectC", "fractionCompleted"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "callAsFunction"]
+- !private ["So8NSObjectP", "dictionary"]
+- !private ["So8NSObjectP", "dictionaryWithContentsOfFile"]
+- !private ["So8NSObjectP", "dictionaryWithContentsOfURL"]
+- !private ["So8NSObjectP", "dictionaryWithDictionary"]
+- !private ["So8NSObjectP", "dictionaryWithObject"]
+- !private ["So8NSObjectP", "dictionaryWithObjects"]
+- !private ["So8NSObjectP", "fractionCompleted"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["9Alamofire26NetworkReachabilityManagerC", "init"]
+- !private ["9Alamofire26NetworkReachabilityManagerC", "isReachable"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["9AlbumsApp12PGApiManagerC", "AF"]
+- ["9AlbumsApp12PGApiManagerC", "Bool"]
+- !private ["9AlbumsApp12PGApiManagerC", "Date"]
+- !private ["9AlbumsApp12PGApiManagerC", "MultipartFormData"]
+- ["9AlbumsApp12PGApiManagerC", "NSDictionary"]
+- ["9AlbumsApp12PGApiManagerC", "NSError"]
+- !private ["9AlbumsApp12PGApiManagerC", "NetworkReachabilityManager"]
+- !private ["9AlbumsApp12PGApiManagerC", "PGApiRouter"]
+- ["9AlbumsApp12PGApiManagerC", "String"]
+- ["9AlbumsApp12PGApiManagerC", "UIImage"]
+- ["9AlbumsApp12PGApiManagerC", "Void"]
+- ["9AlbumsApp12PGApiManagerC", "baseURL"]
+- ["9AlbumsApp12PGApiManagerC", "createLogin"]
+- ["9AlbumsApp12PGApiManagerC", "createStorageLocationWith"]
+- ["9AlbumsApp12PGApiManagerC", "deinit"]
+- ["9AlbumsApp12PGApiManagerC", "deleteStorageLocations"]
+- ["9AlbumsApp12PGApiManagerC", "fetchDBProductsList"]
+- ["9AlbumsApp12PGApiManagerC", "fetchProductsDataForDashBoard"]
+- ["9AlbumsApp12PGApiManagerC", "fetchReceiptsList"]
+- ["9AlbumsApp12PGApiManagerC", "fetchStorageLocationsData"]
+- ["9AlbumsApp12PGApiManagerC", "init"]
+- ["9AlbumsApp12PGApiManagerC", "manualProductsEntry"]
+- ["9AlbumsApp12PGApiManagerC", "networkStatus"]
+- !private ["9AlbumsApp12PGApiManagerC", "print"]
+- ["9AlbumsApp12PGApiManagerC", "registerDevices"]
+- ["9AlbumsApp12PGApiManagerC", "updateStorageLocationWith"]
+- ["9AlbumsApp12PGApiManagerC", "updateUserDetails"]
+- ["9AlbumsApp12PGApiManagerC", "uploadImageToMultiport"]
+- ["9AlbumsApp12PGApiManagerC", "userLogout"]
+- !private ["9AlbumsApp11PGApiRouterO", ""]
+- !private ["9AlbumsApp11PGApiRouterO", "createStorageLocations"]
+- !private ["9AlbumsApp11PGApiRouterO", "deleteStorageLocations"]
+- !private ["9AlbumsApp11PGApiRouterO", "fetchDBProducts"]
+- !private ["9AlbumsApp11PGApiRouterO", "fetchProductDetailsForDashboard"]
+- !private ["9AlbumsApp11PGApiRouterO", "fetchReceiptsList"]
+- !private ["9AlbumsApp11PGApiRouterO", "fetchStorageLocationsData"]
+- !private ["9AlbumsApp11PGApiRouterO", "manualProductEntry"]
+- !private ["9AlbumsApp11PGApiRouterO", "registerDevices"]
+- !private ["9AlbumsApp11PGApiRouterO", "updateStorageLocations"]
+- !private ["9AlbumsApp11PGApiRouterO", "updateUser"]
+- !private ["9AlbumsApp11PGApiRouterO", "uploadImage"]
+- !private ["9AlbumsApp11PGApiRouterO", "userLogin"]
+- !private ["9AlbumsApp11PGApiRouterO", "userLogout"]
+- !private ["So10NSProgressC", "callAsFunction"]
+- !private ["So10NSProgressC", "fractionCompleted"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceReferenceDate"]
+- ["9Alamofire7RequestC", ""]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire7RequestC", "uploadProgress"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire21URLRequestConvertibleP", "createStorageLocations"]
+- !private ["9Alamofire21URLRequestConvertibleP", "deleteStorageLocations"]
+- !private ["9Alamofire21URLRequestConvertibleP", "fetchDBProducts"]
+- !private ["9Alamofire21URLRequestConvertibleP", "fetchProductDetailsForDashboard"]
+- !private ["9Alamofire21URLRequestConvertibleP", "fetchReceiptsList"]
+- !private ["9Alamofire21URLRequestConvertibleP", "fetchStorageLocationsData"]
+- !private ["9Alamofire21URLRequestConvertibleP", "manualProductEntry"]
+- !private ["9Alamofire21URLRequestConvertibleP", "registerDevices"]
+- !private ["9Alamofire21URLRequestConvertibleP", "updateStorageLocations"]
+- !private ["9Alamofire21URLRequestConvertibleP", "updateUser"]
+- !private ["9Alamofire21URLRequestConvertibleP", "uploadImage"]
+- !private ["9Alamofire21URLRequestConvertibleP", "userLogin"]
+- !private ["9Alamofire21URLRequestConvertibleP", "userLogout"]
+- !private ["9Alamofire13UploadRequestC", "responseJSON"]
+- !private ["9Alamofire13UploadRequestC", "uploadProgress"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceReferenceDate"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callAsFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fractionCompleted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "callAsFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fractionCompleted"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpegData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceReferenceDate"]
+depends-nominal:
+- !private "9Alamofire2AFO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9Alamofire17MultipartFormDataC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "9Alamofire26NetworkReachabilityManagerC"
+- "So9OS_objectC"
+- "9AlbumsApp12PGApiManagerC"
+- !private "9AlbumsApp11PGApiRouterO"
+- !private "So10NSProgressC"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9Alamofire7RequestC"
+- !private "s6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "9Alamofire13UploadRequestC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Lavanya/Desktop/Lavanya/AlbumsApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Lavanya/Desktop/Lavanya/AlbumsApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Lavanya/Desktop/Lavanya/AlbumsApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Lavanya/Desktop/Lavanya/AlbumsApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bd1715b9c41e8e3e3094555b542a1ad0"

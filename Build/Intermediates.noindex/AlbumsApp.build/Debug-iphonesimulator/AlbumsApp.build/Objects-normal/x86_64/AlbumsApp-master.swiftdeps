@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "1a2851dab8194d3fc1e3506cd4b25da7"
+build_time: [1613741474, 267737000]
+inputs:
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/Api Service/ApiManager.swift": [1613741261, 160142595]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/View/View/AlbumsDetailCollectionViewCell.swift": [1613741407, 503924531]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/View/AlbumsCollectionViewCell.swift": [1613734179, 377933242]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/Model/AlbumsModel.swift": [1613634272, 817850709]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/View/SearchCollectionReusableView.swift": [1613734176, 649284774]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/Api Service/ApiRouter.swift": [1613740906, 299631264]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumDetail/Model/AlbumDetailModel.swift": [1613734174, 293078984]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/ViewModel/AlbumsViewModel.swift": [1613741474, 2328392]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumDetail/ViewModel/AlbumDetailViewModel.swift": [1613741473, 949755367]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumList/AlbumsListViewController.swift": [1613736658, 885480639]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AppDelegate.swift": [1613562840, 792193770]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/AlbumDetail/AlbumsDetailViewController.swift": [1613741399, 224536065]
+  "/Users/Lavanya/Desktop/AlbumsApp/AlbumsApp/SceneDelegate.swift": [1613562840, 805000305]

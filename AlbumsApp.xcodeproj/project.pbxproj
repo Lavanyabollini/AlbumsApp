@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E92658EDD2883BB2A16959 /* Pods_AlbumsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB097009DAE0D84BFC2E422 /* Pods_AlbumsApp.framework */; };
 		BF5786D925DD3B5800378859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5786D825DD3B5800378859 /* AppDelegate.swift */; };
 		BF5786DB25DD3B5800378859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5786DA25DD3B5800378859 /* SceneDelegate.swift */; };
-		BF5786DD25DD3B5800378859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5786DC25DD3B5800378859 /* ViewController.swift */; };
+		BF5786DD25DD3B5800378859 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5786DC25DD3B5800378859 /* AlbumsListViewController.swift */; };
 		BF5786E025DD3B5800378859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5786DE25DD3B5800378859 /* Main.storyboard */; };
 		BF5786E225DD3B5E00378859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5786E125DD3B5E00378859 /* Assets.xcassets */; };
 		BF5786E525DD3B5E00378859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5786E325DD3B5E00378859 /* LaunchScreen.storyboard */; };
+		BF57871525DD3E2600378859 /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57871425DD3E2600378859 /* AlbumsCollectionViewCell.swift */; };
+		BF57871A25DD467400378859 /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57871925DD467400378859 /* SearchCollectionReusableView.swift */; };
+		BF57871F25DD4F8B00378859 /* AlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57871E25DD4F8A00378859 /* AlbumsModel.swift */; };
+		BF57872225DD505400378859 /* AlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57872125DD505400378859 /* AlbumsViewModel.swift */; };
+		BF57872C25DE23D600378859 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57872A25DE23D600378859 /* ApiManager.swift */; };
+		BF57872D25DE23D600378859 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57872B25DE23D600378859 /* ApiRouter.swift */; };
+		BF57873325DE45FE00378859 /* AlbumsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57873225DE45FE00378859 /* AlbumsDetailViewController.swift */; };
+		BF57875625DFA23900378859 /* AlbumsDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57875525DFA23900378859 /* AlbumsDetailCollectionViewCell.swift */; };
+		BF57875A25DFA25400378859 /* AlbumDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57875925DFA25400378859 /* AlbumDetailModel.swift */; };
+		BF57875F25DFA31200378859 /* AlbumDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57875E25DFA31200378859 /* AlbumDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		208BC2C412EF27145E0B8AAC /* Pods-AlbumsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumsApp.debug.xcconfig"; path = "Target Support Files/Pods-AlbumsApp/Pods-AlbumsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		549029CEE26E8DEDE51AF2C6 /* Pods-AlbumsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumsApp.release.xcconfig"; path = "Target Support Files/Pods-AlbumsApp/Pods-AlbumsApp.release.xcconfig"; sourceTree = "<group>"; };
 		BF5786D525DD3B5800378859 /* AlbumsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5786D825DD3B5800378859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5786DA25DD3B5800378859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF5786DC25DD3B5800378859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF5786DC25DD3B5800378859 /* AlbumsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewController.swift; sourceTree = "<group>"; };
 		BF5786DF25DD3B5800378859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF5786E125DD3B5E00378859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5786E425DD3B5E00378859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5786E625DD3B5E00378859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF57871425DD3E2600378859 /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF57871925DD467400378859 /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		BF57871E25DD4F8A00378859 /* AlbumsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModel.swift; sourceTree = "<group>"; };
+		BF57872125DD505400378859 /* AlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewModel.swift; sourceTree = "<group>"; };
+		BF57872A25DE23D600378859 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		BF57872B25DE23D600378859 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		BF57873225DE45FE00378859 /* AlbumsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsDetailViewController.swift; sourceTree = "<group>"; };
+		BF57875525DFA23900378859 /* AlbumsDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF57875925DFA25400378859 /* AlbumDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailModel.swift; sourceTree = "<group>"; };
+		BF57875E25DFA31200378859 /* AlbumDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModel.swift; sourceTree = "<group>"; };
+		CFB097009DAE0D84BFC2E422 /* Pods_AlbumsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlbumsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E92658EDD2883BB2A16959 /* Pods_AlbumsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CCA862652F3B7D0A72C914E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB097009DAE0D84BFC2E422 /* Pods_AlbumsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE02B0F1DFDBB238C4B37972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				208BC2C412EF27145E0B8AAC /* Pods-AlbumsApp.debug.xcconfig */,
+				549029CEE26E8DEDE51AF2C6 /* Pods-AlbumsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF5786CC25DD3B5800378859 = {
 			isa = PBXGroup;
 			children = (
 				BF5786D725DD3B5800378859 /* AlbumsApp */,
 				BF5786D625DD3B5800378859 /* Products */,
+				BE02B0F1DFDBB238C4B37972 /* Pods */,
+				2CCA862652F3B7D0A72C914E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +102,112 @@
 			children = (
 				BF5786D825DD3B5800378859 /* AppDelegate.swift */,
 				BF5786DA25DD3B5800378859 /* SceneDelegate.swift */,
-				BF5786DC25DD3B5800378859 /* ViewController.swift */,
-				BF5786DE25DD3B5800378859 /* Main.storyboard */,
-				BF5786E125DD3B5E00378859 /* Assets.xcassets */,
-				BF5786E325DD3B5E00378859 /* LaunchScreen.storyboard */,
+				BF57874E25DFA1A300378859 /* AlbumList */,
+				BF57875325DFA1E200378859 /* AlbumDetail */,
+				BF57872925DE23D600378859 /* Api Service */,
+				BF57876B25DFD8BA00378859 /* Storyboard */,
+				BF57876D25DFF5AA00378859 /* Resources */,
 				BF5786E625DD3B5E00378859 /* Info.plist */,
 			);
 			path = AlbumsApp;
+			sourceTree = "<group>";
+		};
+		BF57871D25DD4F6800378859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF57871925DD467400378859 /* SearchCollectionReusableView.swift */,
+				BF57871425DD3E2600378859 /* AlbumsCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF57872925DE23D600378859 /* Api Service */ = {
+			isa = PBXGroup;
+			children = (
+				BF57872A25DE23D600378859 /* ApiManager.swift */,
+				BF57872B25DE23D600378859 /* ApiRouter.swift */,
+			);
+			path = "Api Service";
+			sourceTree = "<group>";
+		};
+		BF57872F25DE260000378859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF57871E25DD4F8A00378859 /* AlbumsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF57873025DE260C00378859 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF57872125DD505400378859 /* AlbumsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF57874E25DFA1A300378859 /* AlbumList */ = {
+			isa = PBXGroup;
+			children = (
+				BF57871D25DD4F6800378859 /* View */,
+				BF57872F25DE260000378859 /* Model */,
+				BF57873025DE260C00378859 /* ViewModel */,
+				BF5786DC25DD3B5800378859 /* AlbumsListViewController.swift */,
+			);
+			path = AlbumList;
+			sourceTree = "<group>";
+		};
+		BF57875325DFA1E200378859 /* AlbumDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BF57875425DFA23900378859 /* View */,
+				BF57873225DE45FE00378859 /* AlbumsDetailViewController.swift */,
+				BF57876125DFA31700378859 /* ViewModel */,
+				BF57875C25DFA25800378859 /* Model */,
+			);
+			path = AlbumDetail;
+			sourceTree = "<group>";
+		};
+		BF57875425DFA23900378859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF57875525DFA23900378859 /* AlbumsDetailCollectionViewCell.swift */,
+			);
+			name = View;
+			path = AlbumsApp/AlbumList/View/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF57875C25DFA25800378859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF57875925DFA25400378859 /* AlbumDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF57876125DFA31700378859 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF57875E25DFA31200378859 /* AlbumDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF57876B25DFD8BA00378859 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BF5786E325DD3B5E00378859 /* LaunchScreen.storyboard */,
+				BF5786DE25DD3B5800378859 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BF57876D25DFF5AA00378859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF5786E125DD3B5E00378859 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF5786E925DD3B5E00378859 /* Build configuration list for PBXNativeTarget "AlbumsApp" */;
 			buildPhases = (
+				CEBDD1852F09EE02944156B4 /* [CP] Check Pods Manifest.lock */,
 				BF5786D125DD3B5800378859 /* Sources */,
 				BF5786D225DD3B5800378859 /* Frameworks */,
 				BF5786D325DD3B5800378859 /* Resources */,
+				FFB51931D593B81A150E9765 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +277,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEBDD1852F09EE02944156B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlbumsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB51931D593B81A150E9765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlbumsApp/Pods-AlbumsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlbumsApp/Pods-AlbumsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlbumsApp/Pods-AlbumsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF5786D125DD3B5800378859 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5786DD25DD3B5800378859 /* ViewController.swift in Sources */,
+				BF57872C25DE23D600378859 /* ApiManager.swift in Sources */,
+				BF57875625DFA23900378859 /* AlbumsDetailCollectionViewCell.swift in Sources */,
+				BF57871525DD3E2600378859 /* AlbumsCollectionViewCell.swift in Sources */,
+				BF57871F25DD4F8B00378859 /* AlbumsModel.swift in Sources */,
+				BF57871A25DD467400378859 /* SearchCollectionReusableView.swift in Sources */,
+				BF57872D25DE23D600378859 /* ApiRouter.swift in Sources */,
+				BF57875A25DFA25400378859 /* AlbumDetailModel.swift in Sources */,
+				BF57872225DD505400378859 /* AlbumsViewModel.swift in Sources */,
+				BF57875F25DFA31200378859 /* AlbumDetailViewModel.swift in Sources */,
+				BF5786DD25DD3B5800378859 /* AlbumsListViewController.swift in Sources */,
 				BF5786D925DD3B5800378859 /* AppDelegate.swift in Sources */,
+				BF57873325DE45FE00378859 /* AlbumsDetailViewController.swift in Sources */,
 				BF5786DB25DD3B5800378859 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +480,7 @@
 		};
 		BF5786EA25DD3B5E00378859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208BC2C412EF27145E0B8AAC /* Pods-AlbumsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +500,7 @@
 		};
 		BF5786EB25DD3B5E00378859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549029CEE26E8DEDE51AF2C6 /* Pods-AlbumsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
